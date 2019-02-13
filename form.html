@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form example">
+  <title>Log Pelajar</title>
+      <link rel="icon" type="image/png" sizes="16x16" href="img/ico.png">
+</head>
+
+<body>
+  <h2 class="content-head is-center">Log Masuk Makmal Komputer | ALPHA Stage</h2>
+
+<!-- START HERE -->
+   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="form/style.css">
+
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="coderakid01@gmail.com"
+  action="https://script.google.com/macros/s/AKfycbzBpfAG6k7jKTZMtNXC9AOisTWmSxqZMFWLidxsmGujI6Ml3PA/exec">
+
+    <div class="form-elements">
+      <fieldset class="pure-group">
+        <label for="name">Nama: </label>
+        <input id="name" name="nama" placeholder="Nama Penuh anda" />
+      </fieldset>
+
+	   <fieldset class="pure-group">
+        <label for="class">Kelas: </label>
+        <input id="name" name="kelas" placeholder="Kelas besertakan tingkatan" />
+      </fieldset>
+
+
+      <fieldset class="pure-group">
+        <label for="color">Tarikh</label>
+		  <input id="color" type="datetime-local" name="tarikh masuk" placeholder="Sila masukkan tarikh dan masa anda masuk makmal">
+      </fieldset>
+
+  
+      <button class="button-success pure-button button-xlarge" align="left">
+        <i class="fa fa-paper-plane"></i>&nbsp;Login</button>
+    </div>
+
+    <div class="thankyou_message" style="display:none;">
+	 <button><a href="form.html">
+        <i class="fa fa-paper-plane"></i>&nbsp;Kembali</a></button>
+      <h2><em>Login Berjaya!</em></h2>
+    </div>
+
+  </form>
+	<footer class="footer">
+		<div class="container">
+			<span class="copyright">HakCipta Terpelihara Briged Bestari SMK Tambun &copy;</span>
+		</div>
+	</footer>
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="form/form-submission-handler.js"></script>
+<!-- END -->
+
+
+</body>
+</html>

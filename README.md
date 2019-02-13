@@ -1,5 +1,2 @@
 # Briged-Site
-Briged Site is Content Management Data for Briged Bestari in everyday duty and platform for them learn about Basic ICT
-
-What is it?
-Yet still figuring out soon you will know
+Currently it is just a Documentation Website.A Reference for Briged in their Duty either Teknikal Units or Pengurusan Unit

@@ -1,0 +1,128 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+			    <link rel="icon" type="image/png" sizes="16x16" href="img/ico.png">
+<style type="text/css">
+	body {
+		color: black;
+		background: white;
+	}
+	form {
+        min-height: 41px;
+		background: #fff;
+		box-shadow: none !important;
+		border-color: #e3e3e3;
+	}
+	form {
+		border-color: #70c5c0;
+	}
+    form, .btn {        
+        border-radius: 2px;
+    }
+	form {
+		width: 350px;
+		margin: 0 auto;
+		padding: 100px 0 30px;		
+	}
+	form {
+		color: #7a7a7a;
+		border-radius: 2px;
+    	margin-bottom: 15px;
+        font-size: 13px;
+        background: #ececec;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;	
+        position: relative;	
+    }
+	form h2 {
+		font-size: 22px;
+        margin: 35px 0 25px;
+    }
+	form .avatar {
+		position: absolute;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		top: -50px;
+		width: 95px;
+		height: 95px;
+		border-radius: 50%;
+		z-index: 9;
+		background: #70c5c0;
+		padding: 15px;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	}
+	form .avatar img {
+		width: 100%;
+	}	
+    form input[type="checkbox"] {
+        margin-top: 2px;
+    }
+    form .btn {        
+        font-size: 16px;
+        font-weight: bold;
+		background: #70c5c0;
+		border: none;
+		margin-bottom: 20px;
+    }
+	form .btn:hover, .login-form .btn:focus {
+		background: #50b8b3;
+        outline: none !important;
+	}    
+	form a {
+		color: #fff;
+		text-decoration: underline;
+	}
+	form a:hover {
+		text-decoration: none;
+	}
+	form form a {
+		color: #7a7a7a;
+		text-decoration: none;
+	}
+	form form a:hover {
+		text-decoration: underline;
+	}
+</style>
+<title>
+User | Login
+</title>
+</head>
+<body>
+<br>
+<form div="login" name="login">
+<h5 style="font-family:Comic Sans Ms;text-align="center">Login untuk Akses Data Makmal dan Briged</h5>
+<input type="text" name="userid"/ placeholder="UserId">
+<input type="password" name="pswrd"/ placeholder="Password">
+<input type="button" onclick="check(this.form)" value="Login"/>
+<input type="reset" value="Cancel" href="index.html" />
+</form>
+	<footer class="footer">
+		<div class="container">
+			<span class="copyright">HakCipta Terpelihara Briged Bestari SMK Tambun &copy;</span>
+		</div>
+	</footer>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "User" && form.pswrd.value == "011101")
+  {
+    window.location.href = './user.html';/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Error Password or Username")/*displays error message*/
+   window.location.href = './index.html';/*opens the target page when Id & password wrong*/
+  }
+}
+</script>
+</body>
+</html>
