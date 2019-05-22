@@ -7,6 +7,8 @@ The Founder
 
 Hi!, I'm Akid former Head of The Briged Bestari 2017 - 2018 founder principal 5th Generation Briged Bestari.I have a passion to develop something that can create an impact for everyone...am i the next Elon Musk??? hahahaha just forget it that doesnt matter,What i'm develop is my jumpstart to my huge vision for the future specially in Industry 4.0....yeah enough talk about me.
 
+Currently studying Diploma in Computer Science at MARA Professional College Beranang...
+
 
 This site on Phase 1 
 
